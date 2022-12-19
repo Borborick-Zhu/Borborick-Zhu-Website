@@ -1,12 +1,12 @@
 import React from 'react'
-import ProfileImage from './assets/zutomayo.jpg'
+import ProfileImage from './assets/zutomayo.png'
 
 
 export default function HomePage() {
   return (
     <div className="home">
       <div className='profile-image'>
-        <img src={ProfileImage} alt=""/>
+        <img className="ztmy-image" src={ProfileImage} alt=""/>
         <h1>BORBORICK ZHU</h1>
       </div>
       <div className="options">

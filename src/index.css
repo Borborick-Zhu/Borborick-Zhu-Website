@@ -2,8 +2,17 @@ p {
     font-size: 100px;
 }
 
+h1, h2 {
+    color: white;
+    padding-top: 10px;
+    font-family: input-mono,monospace;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
 body {
-    background-color: bisque;
+    background-color: rgb(14, 14, 14);
 }
 /*HomePage*/
 
@@ -27,4 +36,21 @@ body {
     display: flex;
     justify-content: space-between;
     width: 1000px;
+}
+
+.ztmy-image {
+    border-radius: 40%;
+    background-color: rgb(14, 14, 14);
+    -webkit-animation: glowing 1s ease-in-out infinite alternate;
+    -moz-animation: glowing 1s ease-in-out infinite alternate;
+    animation: glowing 1s ease-in-out infinite alternate;
+}
+
+@keyframes glowing {
+    from {
+        box-shadow: 0 0 30px rgb(14, 14, 14), 0 0 40px rgb(14, 14, 14), 0 0 50px rgb(10, 50, 118), 0 0 60px rgb(108, 0, 179), 0 0 70px #7a0293, 0 0 80px #e60073, 0 0 90px #e60073;
+      }
+      to {
+        box-shadow: 0 0 40px rgb(14, 14, 14), 0 0 50px rgb(14, 14, 14), 0 0 60px #0e027d, 0 0 70px #7005bc, 0 0 80px #84039a, 0 0 90px #ff4da6, 0 0 100px #ff4da6;
+      }
 }
