@@ -1,5 +1,5 @@
 p {
-    font-size: 100px;
+    font-size: 20px;
 }
 
 h1, h2 {
@@ -36,6 +36,16 @@ body {
     display: flex;
     justify-content: space-between;
     width: 1000px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    font-family: input-mono,monospace;
+    font-weight: 700;
+    font-style: normal;
+
 }
 
 .ztmy-image {

@@ -1,5 +1,6 @@
 import React from 'react'
-import ProfileImage from './assets/zutomayo.png'
+import ProfileImage from './assets/8bitpix.png'
+import { Link } from 'react-router-dom';
 
 
 export default function HomePage() {
@@ -10,10 +11,10 @@ export default function HomePage() {
         <h1>BORBORICK ZHU</h1>
       </div>
       <div className="options">
-        <h2>HOME</h2>
-        <h2>ABOUT</h2>
-        <h2>PROJECTS</h2>
-        <h2>MISC</h2>
+        <Link to='/' className="link"> HOME </Link>
+        <Link to='/about' className="link"> ABOUT </Link>
+        <Link to='/projects' className="link"> PROJECTS </Link>
+        <Link to='/misc' className="link"> MISC </Link>
       </div>
      
     </div>
