@@ -1,16 +1,29 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import abstractImage from './assets/ericaanderson.gif'
+import treeHug from './assets/Image.png'
 
 export default function AboutPage() {
   return (
     <div className="home">
-        <h1>About Me</h1>
-        <div>
+        <div className="options">
+            <Link to='/' className="link"> HOME </Link>
+            <Link to='/about' className="link"> ABOUT </Link>
+            <h1>BORBORICK ZHU</h1>
+            <Link to='/projects' className="link"> PROJECTS </Link>
+            <Link to='/misc' className="link"> MISC </Link>
+        </div>
+        <img className="abstract-image" src={abstractImage} alt=""/>
+        <img className="tree-hug" src={treeHug} alt=""/>
+        
+        <h1 className="about-me-title">About Me</h1>
+        <div className="about-blurb">
             <p>
                 I am a Sophomore at UCLA studying CS but I'm actually from Sydney. 
                 People often have trouble pronouncing my name so just call me Bobo.
             </p>
         </div>
-        <div>
+        <div className="about-blurb">
             <ul>
                 <li> Incoming SDE Intern @ Amazon </li>
                 <li> ACM External Affairs Director </li>
@@ -18,7 +31,7 @@ export default function AboutPage() {
             </ul>
         </div>
 
-        <div>
+        <div className="about-blurb">
             <p>
                 I am super interested in the intersection between CS and Health - more notably
                 how Computer Software can eventually detect early onsets of mental illness, chronic 
@@ -27,9 +40,10 @@ export default function AboutPage() {
             <p>
                 Apart from coding, I love anything related to eating, cooking. If I did not code, I would
                 have gone to culinary school. I also play a lot of sports which include: Ultimate Frisbee, Tennis
-                Basketball, Volleyball)
+                Basketball, Volleyball).
             </p>
         </div>
+        <div className="blank"></div>
     </div>
     )
 }

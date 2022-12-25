@@ -1,5 +1,11 @@
 p {
-    font-size: 20px;
+    font-size: 13px;
+    font-family: input-mono,monospace;
+    text-align: center;
+}
+
+ul {
+    font-size: 13px;
 }
 
 h1, h2 {
@@ -10,6 +16,12 @@ h1, h2 {
     font-style: normal;
 
 }
+ 
+h3 {
+    font-weight: 500;
+    font-family: input-mono,monospace;
+    text-align: center;
+}
 
 body {
     background-color: rgb(14, 14, 14);
@@ -17,7 +29,6 @@ body {
 /*HomePage*/
 
 .home {
-    padding-top: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,15 +38,16 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     width: 280px;
 }
 
 .options {
-    padding-top: 350px;
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    align-items:baseline;
+    padding-top: 10px;
+    width: 2080px;
 }
 
 .link {
@@ -48,19 +60,61 @@ body {
 
 }
 
-.ztmy-image {
-    border-radius: 40%;
-    background-color: rgb(14, 14, 14);
-    -webkit-animation: glowing 1s ease-in-out infinite alternate;
-    -moz-animation: glowing 1s ease-in-out infinite alternate;
-    animation: glowing 1s ease-in-out infinite alternate;
+.socials {
+    display: flex;
+    margin: auto;
+    max-width: 500px;
+    padding-top: 30px;
 }
 
-@keyframes glowing {
-    from {
-        box-shadow: 0 0 30px rgb(14, 14, 14), 0 0 40px rgb(14, 14, 14), 0 0 50px rgb(10, 50, 118), 0 0 60px rgb(108, 0, 179), 0 0 70px #7a0293, 0 0 80px #e60073, 0 0 90px #e60073;
-      }
-      to {
-        box-shadow: 0 0 40px rgb(14, 14, 14), 0 0 50px rgb(14, 14, 14), 0 0 60px #0e027d, 0 0 70px #7005bc, 0 0 80px #84039a, 0 0 90px #ff4da6, 0 0 100px #ff4da6;
-      }
+.socials-button {
+    background-color:rgb(14, 14, 14);
+    color: white;
+    border-color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: input-mono, monospace;
+}
+
+.blurb {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    max-width: 600px;
+    padding-top: 220px;
+    padding-bottom: 300px;
+}
+
+.ztmy-image {
+    margin-top: 200px;
+    width: 250%;
+}
+
+/*About Page*/
+.abstract-image {
+    margin-top: 250px;
+}
+
+.tree-hug {
+    width: 140px;
+    height: auto;
+    position:absolute;
+    margin-top: 355px;
+}
+
+.about-me-title {
+    margin-top: 300px;
+}
+
+.about-blurb {
+    max-width: 600px;
+    color: white;
+    font-family: input-mono, monospace;
+}
+
+.blank {
+    margin-bottom: 300px;
 }
