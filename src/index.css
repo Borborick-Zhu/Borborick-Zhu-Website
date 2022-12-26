@@ -166,3 +166,18 @@ body {
     font-family: input-mono,monospace;
     font-weight: 100;
 }
+
+/*MiscPage*/
+
+.misc-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1000px 1000px 1000px;
+}
+.misc-grid-image {
+    display:inline-block;
+    overflow:hidden;
+}
+.misc-grid-element {
+    background-color: white;
+}
