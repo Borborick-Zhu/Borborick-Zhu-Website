@@ -133,6 +133,9 @@ body {
 }
 
 .project-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 600px;
     height: 800px;
     background-color:rgb(211, 211, 211);
@@ -142,5 +145,19 @@ body {
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
-    padding-top: 50px;
+}
+
+.grid-content {
+    width: 300px;
+    margin: auto;
+}
+.spacer-para {
+    padding-bottom: 30px;
+}
+.github-link {
+    text-decoration: none;
+    color: black;
+    padding-top: 40px;
+    font-family: input-mono,monospace;
+    font-weight: 100;
 }
