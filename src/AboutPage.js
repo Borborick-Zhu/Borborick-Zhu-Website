@@ -15,6 +15,8 @@ export default function AboutPage() {
         </div>
         <img className="abstract-image" src={abstractImage} alt=""/>
         <img className="tree-hug" src={treeHug} alt=""/>
+        <p className="credits"> background: @ericaanderson</p>
+        
         
         <h1 className="about-me-title">About Me</h1>
         <div className="about-blurb">

@@ -93,6 +93,11 @@ body {
     width: 250%;
 }
 
+.credits {
+    color: white;
+    margin: none;
+    padding: none;
+}
 /*About Page*/
 .abstract-image {
     margin-top: 250px;
@@ -101,7 +106,7 @@ body {
 .tree-hug {
     width: 140px;
     height: auto;
-    position:absolute;
+    position: absolute;
     margin-top: 355px;
 }
 
