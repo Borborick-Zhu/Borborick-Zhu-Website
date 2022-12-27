@@ -4,8 +4,9 @@ p {
     text-align: center;
 }
 
-ul {
+ul, li {
     font-size: 13px;
+    font-family: input-mono,monospace;
 }
 
 h1, h2 {
@@ -26,6 +27,11 @@ h3 {
 body {
     background-color: rgb(14, 14, 14);
 }
+
+.header {
+    display: none;
+}
+
 /*HomePage*/
 
 .home {
@@ -46,7 +52,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items:baseline;
-    padding-top: 10px;
     width: 1100px;
 }
 
@@ -107,7 +112,7 @@ body {
     width: 140px;
     height: auto;
     position: absolute;
-    margin-top: 355px;
+    margin-top: 345px;
 }
 
 .about-me-title {
@@ -183,9 +188,6 @@ body {
     grid-template-rows: 1400px 1400px 1400px;
 }
 
-.misc-grid-element {
-    background-color: white;
-}
 
 .misc-grid-element2 {
     background-color: rgb(14, 14, 14);
@@ -194,10 +196,20 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: hue-rotate(180deg);
+    filter: url(#wavy) hue-rotate(275deg);
     
 }
 .misc-blurb {
     max-width: 400px;
     color: white;
+}
+
+.misc-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    max-width: 400px;
 }

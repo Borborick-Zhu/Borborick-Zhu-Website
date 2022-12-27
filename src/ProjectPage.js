@@ -78,6 +78,7 @@ export default function ProjectPage() {
             <p>
               Sep 2021
             </p>
+            <p>img: @tysonparks</p>
           </div>
         )}
       </div>
@@ -112,6 +113,7 @@ export default function ProjectPage() {
             <p>
               Sep 2022
             </p>
+            <p>img: @tysonparks</p>
           </div>
         )}
       </div>
@@ -146,6 +148,7 @@ export default function ProjectPage() {
               <p>
                 Dec 2022
               </p>
+              <p>img: @tysonparks</p>
             </div>
           )}
       
