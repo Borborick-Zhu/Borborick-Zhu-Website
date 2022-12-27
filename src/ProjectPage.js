@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
+import tyson1 from './assets/tyson1.gif';
+import tyson2 from './assets/tyson2.gif';
+import tyson3 from './assets/tyson3.gif';
 
 
 export default function ProjectPage() {
@@ -67,7 +70,8 @@ export default function ProjectPage() {
         )}
         {!isHovering && (
           <div>
-            .001
+            <img className="project-image" src={tyson1} alt=""/>
+            <h3>.001</h3>
             <p>
               taskit app
             </p>
@@ -100,7 +104,8 @@ export default function ProjectPage() {
         )}
         {!isHovering2 && (
           <div>
-            .002
+            <img className="project-image" src={tyson2} alt=""/>
+            <h3>.002</h3>
             <p>
               covid-19 simulator
             </p>
@@ -133,7 +138,8 @@ export default function ProjectPage() {
 
           {!isHovering3 && (
             <div>
-              .003
+              <img className="project-image" src={tyson3} alt=""/>
+              <h3>.003</h3>
               <p>
                 ratemyfood UCLA
               </p>
