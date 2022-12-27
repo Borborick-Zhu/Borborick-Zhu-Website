@@ -1,14 +1,11 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import ztmy from './assets/ztmy.jpg';
-import cench from './assets/cench.jpg';
 import dave from './assets/dave.jpg';
 
 
 export default function MiscPage() {
   const [isHovering, setHovering] = useState(false);
-  const [isHovering2, setHovering2] = useState(false);
-  const [isHovering3, setHovering3] = useState(false);
   const [isHovering4, setHovering4] = useState(false);
 
   const handleMouseOver = () => {
@@ -17,22 +14,6 @@ export default function MiscPage() {
 
   const handleMouseOut = () => {
     setHovering(false);
-  };
-
-  const handleMouseOver2 = () => {
-    setHovering2(true);
-  };
-
-  const handleMouseOut2 = () => {
-    setHovering2(false);
-  };
-
-  const handleMouseOver3 = () => {
-    setHovering3(true);
-  };
-
-  const handleMouseOut3 = () => {
-    setHovering3(false);
   };
 
   const handleMouseOver4 = () => {
@@ -125,10 +106,10 @@ export default function MiscPage() {
           
           
         </div>
-        <div className='misc-grid-element2' onMouseOver={handleMouseOver2} onMouseOut={handleMouseOut2}>
+        <div className='misc-grid-element2'>
           hi
         </div>
-        <div className='misc-grid-element2' onMouseOver={handleMouseOver3} onMouseOut={handleMouseOut3}>
+        <div className='misc-grid-element2'>
           hi
         </div>
         <div className='misc-grid-element' onMouseOver={handleMouseOver4} onMouseOut={handleMouseOut4}> 

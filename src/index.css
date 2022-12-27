@@ -185,7 +185,7 @@ body {
 .misc-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1400px 1400px 1400px;
+    grid-template-rows: 1400px 1400px;
 }
 
 
