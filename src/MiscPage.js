@@ -86,8 +86,8 @@ export default function MiscPage() {
                   <li>Hunter x Hunter</li>
                   <li>Mushoku Tensei</li>
                   <li>Kaguya-sama: Love is War</li>
+                  <li>Re:Zero</li>
                   <li>Chainsaw Man</li>
-                  <li>K-On!</li>
                 </ul>
 
                 <h2>Book Reccs</h2>
