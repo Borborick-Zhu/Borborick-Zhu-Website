@@ -1,5 +1,6 @@
 import React, {useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
+import MainMenu from './assets/main-menu.png'
 
 function DesktopMenu() {
     return (
@@ -16,7 +17,7 @@ function DesktopMenu() {
 function MenuBar() {
     return (
         <nav>
-          <ul>
+          <ul className="menu-bar-list">
             <li><Link to='/' className="link"> HOME </Link></li>
             <li><Link to='/about' className="link"> ABOUT </Link></li>
             <li><Link to='/projects' className="link"> PROJECTS </Link></li>
@@ -46,15 +47,21 @@ export default function MenuNav() {
     function MobileMenu() {
         return (
             <div>
-                <button className='menu-icon' onClick={() => setMenuOpen(!menuOpen)}>Menu</button>
-                {menuOpen && <MenuBar/>}
+                <button className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
+                    {menuOpen && <MenuBar/>}
+                    {!menuOpen && <div className="secondary-home">
+                        <img className="menu-icon" src={MainMenu} alt=""/>
+                        </div>}
+                </button>
             </div>
           );
     }
 
     return (
-        <div>
-            {isMobile ? <MobileMenu/> : <DesktopMenu/>}
+        <div className="secondary-home">
+            <div>
+                {isMobile ? <MobileMenu/> : <DesktopMenu/>}
+            </div>
         </div>
     )
 }

@@ -1,12 +1,18 @@
 p {
-    font-size: 13px;
+    font-size: 14px;
     font-family: input-mono,monospace;
     text-align: center;
 }
 
 ul, li {
-    font-size: 13px;
+    font-size: 14px;
     font-family: input-mono,monospace;
+    padding-bottom: 10px;
+}
+
+
+li::before {
+    color: rgb(14,14,14);
 }
 
 h1, h2 {
@@ -28,19 +34,27 @@ body {
     background-color: rgb(14, 14, 14);
 }
 
-@media only screen and (max-width: 600px) {
-    /* Styles go here */
-}
-
 
 .header {
     display: none;
 }
 
+
 .menu-icon {
-    color:white;
+    display: inline-block;
+    background-color: rgb(14,14,14);
+    width: 40px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-color:rgb(14, 14, 14);
+    border: none;
+    transition: background 250ms ease-in-out, transform 150ms ease;
 }
 
+.menu-bar-list {
+    padding-top: 10px;
+}
 /*HomePage*/
 
 .home {
@@ -48,6 +62,8 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+
 
 .profile-image {
     margin: auto;
@@ -64,6 +80,7 @@ body {
     align-items:baseline;
     max-width: 1100px;
     min-width: 600px;
+    margin: auto;
 }
 
 .link {
@@ -102,6 +119,8 @@ body {
     max-width: 600px;
     padding-top: 220px;
     padding-bottom: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .ztmy-image {
@@ -126,12 +145,23 @@ body {
     margin-top: 345px;
 }
 
+@media only screen and (max-width: 600px) {
+    .tree-hug {
+        width: 140px;
+        height: auto;
+        position: absolute;
+        margin-top: 254px;
+    }
+}
+
 .about-me-title {
     margin-top: 300px;
 }
 
 .about-blurb {
     max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
     font-family: input-mono, monospace;
 }
@@ -150,7 +180,13 @@ body {
 .project-grid {
     display: flex;
     margin: auto;
-    
+}
+
+@media only screen and (max-width: 600px) {
+    .project-grid {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .project-image {
@@ -164,7 +200,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 600px;
+    width: 500px;
     height: 800px;
     background-color:rgb(14,14,14);
     font-family: input-mono, monospace;
@@ -196,7 +232,15 @@ body {
 .misc-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1400px 1400px;
+    grid-template-rows: 1400px;
+}
+
+@media only screen and (max-width: 800px) {
+    .misc-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1400px 1400px
+    }
 }
 
 
