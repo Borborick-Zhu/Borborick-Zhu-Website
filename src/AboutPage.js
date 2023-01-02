@@ -1,18 +1,18 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import abstractImage from './assets/ericaanderson.gif'
-import treeHug from './assets/Image.png'
+import React from 'react';
+import abstractImage from './assets/ericaanderson.gif';
+import treeHug from './assets/Image.png';
+import MenuNav from './MenuNav.js'
+
+
 
 export default function AboutPage() {
-  return (
+    
+
+
+    return (
+        
     <div className="home">
-        <div className="options">
-            <Link to='/' className="link"> HOME </Link>
-            <Link to='/about' className="link"> ABOUT </Link>
-            <h1>BORBORICK ZHU</h1>
-            <Link to='/projects' className="link"> PROJECTS </Link>
-            <Link to='/misc' className="link"> MISC </Link>
-        </div>
+        <MenuNav/>
         <img className="abstract-image" src={abstractImage} alt=""/>
         <img className="tree-hug" src={treeHug} alt=""/>
         <p className="credits"> background: @ericaanderson</p>
@@ -49,3 +49,5 @@ export default function AboutPage() {
     </div>
     )
 }
+
+
