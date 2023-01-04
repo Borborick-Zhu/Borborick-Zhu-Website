@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
 import tyson1 from './assets/tyson1.gif';
 import tyson2 from './assets/tyson2.gif';
 import tyson3 from './assets/tyson3.gif';

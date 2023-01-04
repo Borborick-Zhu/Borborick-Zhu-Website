@@ -1,6 +1,5 @@
 import React from 'react'
 import ProfileImage from './assets/giphy.gif'
-import { Link } from 'react-router-dom';
 import MenuBar from './MenuNav.js'
 
 

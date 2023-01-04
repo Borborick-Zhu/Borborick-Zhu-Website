@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
 import ztmy from './assets/ztmy.jpg';
 import dave from './assets/dave.jpg';
 import MenuNav from './MenuNav.js'
