@@ -126,6 +126,7 @@ body {
 .ztmy-image {
     margin-top: 200px;
     width: 250%;
+    max-width: 580px;
 }
 
 .credits {
@@ -152,6 +153,7 @@ body {
         position: absolute;
         margin-top: 254px;
     }
+    
 }
 
 .about-me-title {
