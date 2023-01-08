@@ -128,7 +128,7 @@ export default function MiscPage() {
                 <h2>Honors + Awards</h2>
                 <p>The following: </p>
                 <ul>
-                  <li>Deans Honor List W22, S22</li>
+                  <li>Deans Honor List W22, S22, F22</li>
                   <li>Best First Year Project (UNSW)</li>
                   <li>First Place: Datathon Starterthon (UNSW)</li>
                 </ul>
