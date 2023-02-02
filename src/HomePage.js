@@ -36,7 +36,7 @@ export default function HomePage() {
                 <a className="link" href="https://github.com/Borborick-Zhu" target="_blank" rel="noreferrer"> GitHub </a>
               </button>
             <button className="socials-button">
-              <a className="link" href="https://drive.google.com/file/d/11vU1-AB1kHbEPP0DmU3CSJ9xZTyLIXob/view?usp=sharing" target="_blank" rel="noreferrer"> Resume </a>
+              <a className="link" href="https://drive.google.com/file/d/1knG-PAWWhwux3eBKVGK8Q807UYiviFUW/view?usp=sharing" target="_blank" rel="noreferrer"> Resume </a>
             </button>
           </div>
         </div>
