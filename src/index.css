@@ -55,8 +55,17 @@ body {
 .menu-bar-list {
     padding-top: 10px;
     list-style: disc;
-    color: black;
+    color: rgb(14,14,14);
     padding-left: 20px;
+}
+
+.menu-bar-list li {
+    margin-left: -20px; /* Shift text to the left by 20px */
+}
+
+.menu-bar-list ul {
+    margin-top: 10px; /* Add some space between nested lists */
+    margin-left: 20px; /* Indent nested lists */
 }
 /*HomePage*/
 
