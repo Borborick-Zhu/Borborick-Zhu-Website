@@ -15,7 +15,7 @@ export default function HomePage() {
         </div>
         <div className="blurb">
           <h3> Borborick Zhu </h3>
-          <h3> 19 - CS @ UCLA</h3>
+          <h3> 20 - CS @ UCLA</h3>
           <p>
             Welcome to my website! I tried to take a more expressionist yet minimialist 
             design approach to the website to show my love for simplistic beauty. Be sure to

@@ -54,6 +54,9 @@ body {
 
 .menu-bar-list {
     padding-top: 10px;
+    list-style: disc;
+    color: black;
+    padding-left: 20px;
 }
 /*HomePage*/
 
@@ -181,7 +184,15 @@ body {
 
 .project-grid {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%; /* set the width of the grid */
     margin: auto;
+}
+  
+.project-grid > * {
+width: calc(50% - 10px); /* set the width of each item */
+margin-bottom: 20px; /* add some space between the rows */
 }
 
 @media only screen and (max-width: 600px) {
