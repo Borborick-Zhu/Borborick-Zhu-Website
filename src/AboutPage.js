@@ -27,7 +27,7 @@ export default function AboutPage() {
             </div>
             <div className="about-blurb">
                 <ul>
-                    <li> Incoming SDE Intern @ Amazon </li>
+                    <li> Current SDE Intern @ Amazon </li>
                     <li> ACM External Affairs Director </li>
                     <li> Love Playing Sports</li>
                 </ul>
